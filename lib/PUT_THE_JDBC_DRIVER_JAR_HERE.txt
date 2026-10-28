@@ -1,0 +1,4 @@
+Put the MySQL Connector/J .jar (for example mysql-connector-j-9.1.0.jar) in this folder.
+Download: https://dev.mysql.com/downloads/connector/j/  ->  "Platform Independent"  ->  ZIP  ->  take the .jar inside.
+The app finds it here automatically; no NetBeans library setup needed.
+(Using MariaDB's driver instead? Put mariadb-java-client-x.y.z.jar here and set db.type=mariadb in db.properties.)
